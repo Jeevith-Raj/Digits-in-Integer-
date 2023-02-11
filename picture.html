@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>GONZO</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+</head>
+<body>
+
+<!--==============================Mian Wrapper starts=============================-->
+
+<div class="wrapper">
+
+<!--========================Header Starts======================================-->
+
+	<div class="header">
+		
+		<div class="logo">
+		
+			<h1><a href="#">GONZO</a></h1>
+		
+		</div>
+
+	</div>
+
+<!--==========================Header Ends======================================-->
+
+<!--==============================Navigatin starts=============================-->
+
+	<div class="navigation">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a class="active" href="picture.html">PICTURES</a></li>
+			<li class="bdr"><a class="pdg" href="contact.html">CONTACT</a></li>					
+		</ul>
+	</div>
+<!--==============================Navigatin Ends=============================-->
+
+
+<div class="content">
+
+<h1>Pictures</h1>	
+
+			<ul class="gallery clearfix">
+				
+				<li><a href="images/fullscreen/1.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/1.png" width="120" height="120" alt="Gonzo" /></a></li>
+				<li><a href="images/fullscreen/2.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/2.png" width="120" height="120" alt="Gonzo" /></a></li>
+				<li><a href="images/fullscreen/3.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/3.png" width="120" height="120" alt="Gonzo" /></a></li>
+				<li><a href="images/fullscreen/4.png" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/4.png" width="120" height="120" alt="Gonzo" /></a></li>
+				<li><a href="images/fullscreen/5.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/5.png" width="120" height="120" alt="Gonzo" /></a></li>
+				<li><a href="images/fullscreen/6.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/6.png" width="120" height="120" alt="Gonzo" /></a></li>
+				<li><a href="images/fullscreen/7.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/7.png" width="120" height="120" alt="Gonzo" /></a></li>
+				<li><a href="images/fullscreen/8.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/8.png" width="120" height="120" alt="Gonzo" /></a></li>
+
+			</ul>
+
+
+
+</div>
+
+<!--==============================Footer Starts==============================-->
+
+<div class="footer">
+
+<p>&copy; 2014 by XYZ </p>
+
+<!--==============================Footer Ends==============================-->
+</div>
+
+<!--==============================Mian Wrapper Ends=============================-->
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>	
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+		
+				
+				$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:10000, autoplay_slideshow: true});
+		
+				$(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true});
+		
+
+			});
+
+
+</script>
+</body>
+</html>

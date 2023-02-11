@@ -1,0 +1,195 @@
+/* CSS Document */
+
+/*Global Css starts*/
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,ul li{
+	padding:0px;
+	margin:0px;
+}
+
+
+.clear{
+	clear:both;
+}
+
+a, a img{
+	text-decoration:none;
+	border:0;
+	outline:none;
+}
+
+ul li{
+	list-style-type:none;
+}
+
+/*Global Css Ends*/
+
+
+
+/*Main Css starts*/
+
+.wrapper{
+	width:960px;
+	margin:0 auto;
+}
+
+.header{
+	padding:20px 0px;
+	margin:0px;
+}	
+
+.logo h1 a{
+	display:block;
+	width:256px;
+	height:147px;
+	background:url(../images/gonzo.png) no-repeat;
+	margin:0 auto;
+	text-indent:-99999px;
+}
+
+.navigation{
+	padding:0px;
+	text-align:center;
+}
+
+.navigation ul li{
+	border-right:1px solid #CCCCCC;
+	position:relative;
+	display:inline;		
+
+}
+
+.navigation ul li a{
+	font-size:12px;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;	
+	text-transform:uppercase;
+	padding:0 40px;
+	font-weight:bold;
+}
+
+.navigation ul li a:hover{
+	color:#999999;
+}
+
+.navigation ul li a.active{
+	color:#999999;
+}
+
+.bdr, .pdg{
+	border:0px !important;
+	padding-right:0px !important;
+}
+
+#slider{
+	border:2px solid #000000;
+	border-radius:10px;
+	height:300px !important;
+	width:575px;
+	margin:30px auto 0px;
+   	left: 18px;
+    position: relative;
+}
+
+.footer{
+
+	text-align:center;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:30px 0;
+	clear:both;
+}
+
+.fltr{
+
+	float:right;
+	border-radius:10px;
+	border:1px solid #000000;
+	margin:30px 0px 16px 16px;
+
+}
+
+.content{
+
+	 width: 600px;
+	 margin:0 auto;
+}
+
+.content h1{
+	color:#000000;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:20px 0 20px 0;
+}
+
+
+.content p{
+	color:#000000;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:20px;
+	padding-bottom:10px;
+	text-align:justify;
+	padding-right:20px;
+	
+}
+
+.form{
+	margin:30px 0 0 0;
+	padding:0px;
+}
+
+.form input, .form textarea{
+	display:block;
+	border-radius:5px;
+	border:1px solid #999999;
+	padding:5px;
+	width:98%;
+	margin:10px 0px;
+}
+
+.form input[type="submit"]{
+	width:100% !important;
+	cursor:pointer;
+	background:#000000;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+ul.gallery li{
+	width:120px;
+	float:left;
+	margin:13px;	
+}
+
+ul.gallery li img{
+	border-radius:5px;
+	border:1px solid #000000;
+}	 	
+
+
+
+/*Main Css Ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
